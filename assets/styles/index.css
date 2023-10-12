@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #FFE17B
+  }
+  .header .header-title {
+    color: #272626;
+    color: #FFF;
+  }
+  
+  .main-container .notepad-container .notepad-card {
+    height: 70vh;
+  }
+  .main-container .notepad-container .notepad-card .card-body .notepad {
+    height: 100%;
+    resize: none;
+    border: none;
+  }
+  .main-container .notepad-container .control-panel .dir-container {
+    height: 40vh;
+  }
+  .main-container .notepad-container .control-panel .dir-container .dir-content {
+    overflow-y: scroll;
+  }
+  .main-container .notepad-container .control-panel .dir-container .dir-content .lista-archivos {
+    text-decoration: none;
+  }
+  .main-container .notepad-container .control-panel .disabled-input {
+    background-color: rgb(209, 209, 209);
+  }
+  .main-container .valor-invisible {
+    display: none;
+  }/*# sourceMappingURL=index.css.map */
